@@ -6,7 +6,7 @@ import Slug from '../../enterprise/entities/value-objects/slug'
 let inMemoryQuestionsRepository: InMemoryQuestionsRepository
 let sut: GetQuestionBySlugUseCase
 
-describe('get question by slug Use Case', () => {
+describe('Get Guestion By Slug Use Case', () => {
   beforeEach(() => {
     inMemoryQuestionsRepository = new InMemoryQuestionsRepository()
     sut = new GetQuestionBySlugUseCase(inMemoryQuestionsRepository)
